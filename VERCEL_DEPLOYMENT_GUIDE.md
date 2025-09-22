@@ -8,7 +8,7 @@ In your Vercel dashboard, go to your project settings and add these environment 
 
 ```bash
 # API Configuration - Render.com Backend
-VITE_API_URL=https://healthcare-backend-1-3c6k.onrender.com
+VITE_API_URL=https://prontibus.onrender.com
 
 # Application Configuration
 VITE_APP_NAME=CliniCore
@@ -57,7 +57,7 @@ Once redeployed, test the connection:
 2. Open browser developer tools (F12)
 3. Go to **Network** tab
 4. Try to login or make any API call
-5. Check if requests are going to: `https://healthcare-backend-1-3c6k.onrender.com`
+5. Check if requests are going to: `https://prontibus.onrender.com`
 
 ### 5. **CORS Configuration**
 
@@ -72,7 +72,7 @@ If you encounter CORS errors:
 1. **Check Environment Variables**: Make sure `VITE_API_URL` is set correctly
 2. **Check Network Tab**: Verify API calls are going to the right URL
 3. **Check Backend Logs**: Look at Render.com logs for any errors
-4. **Test Backend Directly**: Visit `https://healthcare-backend-1-3c6k.onrender.com/health`
+4. **Test Backend Directly**: Visit `https://prontibus.onrender.com/health`
 
 ### 7. **Local Development**
 
@@ -85,7 +85,7 @@ VITE_DEBUG=true
 
 ## 🎯 **Quick Setup Checklist**
 
-- [ ] Add `VITE_API_URL=https://healthcare-backend-1-3c6k.onrender.com` to Vercel environment variables
+- [ ] Add `VITE_API_URL=https://prontibus.onrender.com` to Vercel environment variables
 - [ ] Redeploy frontend
 - [ ] Test login functionality
 - [ ] Check browser network tab for API calls
